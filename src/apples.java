@@ -16,6 +16,9 @@ class apples {
     		case 3:
 			System.out.println("You can get in trouble");
 			break;
+			
+    		case 4:
+    			System.out.println("You are dead");
     		}
     }
 }
