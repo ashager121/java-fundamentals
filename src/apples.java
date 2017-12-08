@@ -16,10 +16,10 @@ class apples {
     		case 3:
 			System.out.println("You can get in trouble");
 			break;
-			
-    		case 4:
-    			System.out.println("You are dead");
-    		}
+		//if none of the cases are true, this is like an else statement	
+    		default: 
+    			System.out.println("I dont know how old you are");
+    			break;
     }
 }
 
