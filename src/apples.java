@@ -6,11 +6,9 @@ class apples {
     	//this functions as a call from tuna.java and implements a string with name
     		Scanner input = new Scanner(System.in);
     		tuna tunaObject = new tuna ();
-    		
-    		System.out.println("Enter your name here: ");
-    		String name = input.nextLine();
-    	//take the name argument and calls the String Name and prints out "Hello " + name	
-    		tunaObject.simpleMessage(name);
-    		
+    		System.out.println("Enter name of gf here: ");
+    		String temp = input.nextLine();
+    		tunaObject.setName(temp);
+    		tunaObject.saying();
     }
 }
