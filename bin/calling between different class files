@@ -9,7 +9,7 @@ class apples {
     		
     		System.out.println("Enter your name here: ");
     		String name = input.nextLine();
-    	//take the name argument and calls the String Name and prints out "Hello " + name	
+    		
     		tunaObject.simpleMessage(name);
     		
     }
