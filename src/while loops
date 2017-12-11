@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+class apples {
+    public static void main(String args[]) {
+    	//while loops allow you to execute a certain block
+    	//of code multiple times but only write it once
+    		 int counter = 0;
+    			while(counter < 10) {
+    				//because counter is less than 10
+    				//it prints 0, counter++ makes sure it doesn't loop infinitely
+    				//therefore it will count up from 0-9 because
+    				//10 is not less than 10 and then it stops
+    				
+    				System.out.println(counter); 
+    				 counter++;
+    				 }
+    }
+}
